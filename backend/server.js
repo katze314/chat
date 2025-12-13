@@ -1,8 +1,8 @@
 const express = require("express");
-const {chats}=require("./data/data")
+const { chats }=require("./data/data")
+
 
 const app = express();
-
 
 app.get('/', (req,res)=>{
     res.send("API is Running");
