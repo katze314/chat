@@ -1,0 +1,23 @@
+{
+  "name": "chat",
+  "version": "1.0.0",
+  "description": "a live online chat website",
+  "homepage": "https://github.com/katze314/chat#readme",
+  "bugs": {
+    "url": "https://github.com/katze314/chat/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/katze314/chat.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
