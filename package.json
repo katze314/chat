@@ -21,6 +21,7 @@
     "@chakra-ui/react": "^3.30.0",
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.1",
+    "colors": "^1.4.0",
     "dotenv": "^17.2.3",
     "express": "^5.2.1",
     "framer-motion": "^12.23.26",
