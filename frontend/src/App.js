@@ -6,14 +6,13 @@ import './App.css';
 import { Route, Routes } from "react-router-dom";
 import Homepage from "./pages/homepage";
 import ChatPage from './pages/chatpage';
-
-
+//import { ChakraProvider } from "@chakra-ui/react";
 
 function App() {
   return (
-    <div>
+      <div class ="App">
       <Routes>
-        <Route path="/" element={<Homepage />}/>
+        <Route path="/home" element={<Homepage />} />
         <Route path="/chats" element={<ChatPage />}/>
       </Routes>
     </div>

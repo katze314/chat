@@ -1,0 +1,27 @@
+.App {
+    background-color: midnightblue;
+    min-height: 100vh;
+    display: flex;
+
+}
+
+.box{
+    display: flex;
+    background-color: aliceblue;
+    width: 50vh;
+    
+    border-radius: 2vh;
+    padding: 5vh;
+    margin: 5vh;
+}
+
+h1{
+    margin: auto;
+}
+
+.container{
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -50%);
+}
