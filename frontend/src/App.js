@@ -5,22 +5,21 @@ import './App.css';
 //import { ChakraProvider } from "@/chakra-ui/react";
 import { Route, Routes } from "react-router-dom";
 import Homepage from "./pages/homepage";
+import ChatPage from './pages/chatpage';
 
 
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <Routes>
-        <Route path="/home" component={Homepage}/>
-        <Route paht="/chats" />
+        <Route path="/" element={<Homepage />}/>
+        <Route path="/chats" element={<ChatPage />}/>
       </Routes>
-
     </div>
-
   );
 }
 
-export default App;
+export default App
 
 
