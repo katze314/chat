@@ -17,11 +17,11 @@ const ChatPage = () => {
     }, [])
 
     return <div>
-        <h1 class="box">Verfügbare Chats</h1>
+        <h1 class="box">Available Chats</h1>
         <div class="box">
         {chats.map((chat) => (
             <div key={chat._id} >
-                {chat.chatName}: {chat.users[0].name}, {chat.users[1].name}
+                "{chat.chatName}" contains "{chat.users[0].name}" and "{chat.users[1].name}"
                 
 
             </div>
