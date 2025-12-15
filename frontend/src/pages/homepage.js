@@ -53,12 +53,12 @@ const Homepage = () => {
 
         <div id="Login" class="tabcontent">
         <form>
-            <label for="username" >Username: </label>            <br></br>
+            <label for="username" >Username: </label><br></br>
 
             <input onChange={(e) => setName(e.target.value)} 
             type="text" name="username" placeholder="Enter Username"></input>    
             <br></br>
-            <label for="password">Password:   </label>            <br></br>
+            <label for="password">Password:   </label><br></br>
 
             <input onChange={(e) => setName(e.target.value)} 
             type="text" name="password" placeholder="Enter Password"></input>    
@@ -69,18 +69,18 @@ const Homepage = () => {
 
         <div id="SignUp" class="tabcontent<">
         <form>
-            <label for="username">Username: </label>            <br></br>
+            <label for="username">Username: </label><br></br>
 
             <input type="text" name="username" placeholder="Enter Username"
             onchange={(e) => setName(e.target.value)}           
             ></input>    
             <br></br>
-            <label for="password">Password: </label>            <br></br>
+            <label for="password">Password: </label><br></br>
 
             <input onchange={(e) => setPassword(e.target.value)}  
             type="text" name="password" placeholder="Enter Password"></input>    
             <br></br>
-            <label for="cpassword">Confirm Password: </label>            <br></br>
+            <label for="cpassword">Confirm Password: </label><br></br>
 
             <input 
             onchange={(e) => setCpassword(e.target.value)}  
