@@ -36,7 +36,7 @@ const Homepage = () => {
     return (
     <>
     <div class="container">
-    <div class="box">
+    <div class="box" >
         <h1>
             ChatPage
         </h1>
@@ -54,11 +54,13 @@ const Homepage = () => {
         <div id="Login" class="tabcontent">
         <h3>Login</h3>
         <form>
-            <label for="username" >Username: </label>
+            <label for="username" >Username: </label>            <br></br>
+
             <input onChange={(e) => setName(e.target.value)} 
             type="text" name="username" placeholder="Enter Username"></input>    
             <br></br>
-            <label for="password">Password:   </label>
+            <label for="password">Password:   </label>            <br></br>
+
             <input onChange={(e) => setName(e.target.value)} 
             type="text" name="password" placeholder="Enter Password"></input>    
             <br></br>
@@ -69,16 +71,19 @@ const Homepage = () => {
         <div id="SignUp" class="tabcontent">
         <h3>Sign Up</h3>
         <form>
-            <label for="username">Username: </label>
+            <label for="username">Username: </label>            <br></br>
+
             <input type="text" name="username" placeholder="Enter Username"
             onchange={(e) => setName(e.target.value)}           
             ></input>    
             <br></br>
-            <label for="password">Password: </label>
+            <label for="password">Password: </label>            <br></br>
+
             <input onchange={(e) => setPassword(e.target.value)}  
             type="text" name="password" placeholder="Enter Password"></input>    
             <br></br>
-            <label for="cpassword">Confirm Password: </label>
+            <label for="cpassword">Confirm Password: </label>            <br></br>
+
             <input 
             onchange={(e) => setCpassword(e.target.value)}  
             type="text" name="cpassword" placeholder="Confirm Password"></input>    
