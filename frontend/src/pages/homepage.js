@@ -60,14 +60,14 @@ const Homepage = () => {
             <br></br>
             <label for="password">Password:   </label><br></br>
 
-            <input onChange={(e) => setName(e.target.value)} 
+            <input onChange={(e) => setPassword(e.target.value)} 
             type="text" name="password" placeholder="Enter Password"></input>    
             <br></br>
             <button type="submit" onClick={submitLogin}>Login</button>
         </form>
         </div>
 
-        <div id="SignUp" class="tabcontent<">
+        <div id="SignUp" class="tabcontent">
         <form>
             <label for="username">Username: </label><br></br>
 
