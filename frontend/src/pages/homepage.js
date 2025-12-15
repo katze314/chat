@@ -52,7 +52,6 @@ const Homepage = () => {
         </div>
 
         <div id="Login" class="tabcontent">
-        <h3>Login</h3>
         <form>
             <label for="username" >Username: </label>            <br></br>
 
@@ -68,8 +67,7 @@ const Homepage = () => {
         </form>
         </div>
 
-        <div id="SignUp" class="tabcontent">
-        <h3>Sign Up</h3>
+        <div id="SignUp" class="tabcontent<">
         <form>
             <label for="username">Username: </label>            <br></br>
 
